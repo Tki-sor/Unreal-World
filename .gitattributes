@@ -1,8 +1,2 @@
-/*
-!/Unreal-World
-/Unreal-World/*
-!/Unreal-World/.minecraft
-/Unreal-World/.minecraft/*
-!/Unreal-World/.minecraft/scripts
-!/Unreal-World/.minecraft/config
-!/Unreal-World/.minecraft/resources
+# Auto detect text files and perform LF normalization
+* text=auto
