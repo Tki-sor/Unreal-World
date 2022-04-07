@@ -1,0 +1,104 @@
+#loader contenttweaker
+#priority 28085
+/*
+Author:Tki_sor
+Version:1.0.2
+*/
+
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Block;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.CreativeTab;
+import mods.contenttweaker.IItemRightClick;
+import mods.contenttweaker.Commands;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.BlockMaterial;
+import mods.contenttweaker.SoundType;
+import mods.contenttweaker.SoundEvent;
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Material;
+import mods.contenttweaker.MaterialPart;
+import mods.contenttweaker.Part;
+import mods.contenttweaker.PartBuilder;
+import mods.contenttweaker.RegisterMaterialPart;
+import mods.contenttweaker.PartDataPiece;
+import mods.contenttweaker.MaterialPartData;
+import mods.contenttweaker.ActionResult;
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.Hand;
+import crafttweaker.data.IData;
+
+static cot as int = 0;
+
+var tab = mods.contenttweaker.VanillaFactory.createCreativeTab("Tsllr_item", <item:minecraft:dirt:0>);
+tab.register();
+
+function ItemBuilder(name as string) {
+    var itemt = VanillaFactory.createItem(name);
+    itemt.creativeTab = <creativetab:Tsllr_item>;
+    itemt.register();
+}
+
+function upItemBuilder(name as string,maxStackSize as int,glowing as bool) {
+    var itemt = VanillaFactory.createItem(name);
+    itemt.maxStackSize = maxStackSize;
+    itemt.glowing = glowing;
+    itemt.creativeTab = <creativetab:Tsllr_item>;
+    itemt.register();
+}
+
+
+
+var tabtool = mods.contenttweaker.VanillaFactory.createCreativeTab("Tsllr_tool", <item:minecraft:dirt:0>);
+tabtool.register();
+
+function ToolBuilder(name as string,toolClass as string,maxDamage as int,toolLevel as int,glowing as bool) {
+    var toolt = VanillaFactory.createItem(name);
+    toolt.toolClass = toolClass;
+    toolt.maxDamage = maxDamage;
+    toolt.toolLevel = toolLevel;
+    toolt.glowing = glowing;
+    toolt.creativeTab = <creativetab:Tsllr_tool>;
+    toolt.register();
+}
+
+
+
+val tabblock = mods.contenttweaker.VanillaFactory.createCreativeTab("Tsllr_block", <item:minecraft:bedrock>);
+tabblock.register();
+
+function BlockBuilder(name as string,blockMaterial as BlockMaterial,hardness as float,resistance as float,blockSoundType as SoundType,lightValue as int,gravity as bool,toolClass as string,toolLevel as int,beaconBase as bool) {
+    var blockt = VanillaFactory.createBlock(name,blockMaterial);
+    blockt.setBlockHardness(hardness);
+    blockt.setBlockResistance(resistance);
+    blockt.setBlockSoundType(blockSoundType);
+    blockt.setLightValue(lightValue);
+    blockt.gravity = gravity;
+    blockt.setToolClass(toolClass);
+    blockt.setToolLevel(toolLevel);
+    blockt.beaconBase = beaconBase;
+    blockt.creativeTab = <creativetab:Tsllr_block>;
+    blockt.register();
+}
+
+function FluidBuilder(name as string,color as string,temperature as int,viscosity as int,density as int,luminosity as int,isLava as bool){
+    var fluidt = VanillaFactory.createFluid(name,Color.fromHex(color));
+    fluidt.temperature = temperature;
+    fluidt.viscosity = viscosity;
+    fluidt.density = density;
+    fluidt.luminosity = luminosity;
+    if (isLava) {
+    fluidt.material = <blockmaterial:lava>;
+    fluidt.stillLocation = "base:fluids/molten";
+    fluidt.flowingLocation = "base:fluids/molten_flowing";
+    } else {
+    fluidt.material = <blockmaterial:water>;
+    fluidt.stillLocation = "base:fluids/liquid";
+    fluidt.flowingLocation = "base:fluids/liquid_flow";
+    }
+    fluidt.register();
+}

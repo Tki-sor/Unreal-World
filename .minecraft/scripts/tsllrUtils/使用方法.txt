@@ -1,0 +1,25 @@
+i18nUtils
+
+import scripts.TsllrUtils.i18nUtils;
+
+#i18nUtils.i18nTweak(key as string, langus as string, langcn as string);
+i18nUtils.i18nTweak("本地化key", "英文翻译", "中文翻译");
+
+
+cotUtils
+
+import scripts.TsllrUtils.cotUtils;
+
+#cotUtils.ItemBuilder(name as string);
+cotUtils.ItemBuilder("物品id");
+
+#
+
+
+coti18nUtils
+
+import scripts.TsllrUtils.coti18nUtils;
+
+#coti18nUtils.i18nItemBuild(name as string,langus as string,langcn as string);
+coti18nUtils.i18nItemBuild("物品id", "英文翻译", "中文翻译");
+
