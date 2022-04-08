@@ -1,7 +1,7 @@
 {
-    "versionName": "0.1.0",
-    "versionCode": "802",
-    "versionFormat": "%versionName%.%versionCode%",
+    "versionName": "0.1.2",
+    "versionCode": "3",
+    "versionFormat": "%versionName%(%versionCode%)",
     "sponsors": [],
     "sponsorMessage": [],
     "changelogs": {},
@@ -9,11 +9,11 @@
     "welcomeMessage": [
         "",
         {
-            "translate": "herodotus.welcomeMessage.head",
+            "translate": "unrealworld.welcomeMessage.head",
             "color": "gold"
         },
         {
-            "translate": "herodotus.welcomeMessage.name",
+            "translate": "unrealworld.welcomeMessage.name",
             "color": "aqua"
         },
         {
