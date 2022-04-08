@@ -1,0 +1,23 @@
+{
+    "versionName": "0.1.0",
+    "versionCode": "802",
+    "versionFormat": "%versionName%.%versionCode%",
+    "sponsors": [],
+    "sponsorMessage": [],
+    "changelogs": {},
+    "variables": {},
+    "welcomeMessage": [
+        "",
+        {
+            "translate": "herodotus.welcomeMessage.head",
+            "color": "gold"
+        },
+        {
+            "translate": "herodotus.welcomeMessage.name",
+            "color": "aqua"
+        },
+        {
+            "text": "\n"
+        }
+    ]
+}
