@@ -1,0 +1,15 @@
+//设置打印报告
+printDocumentation(false)
+
+//世界类型固定为默认
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+basicSkyIslands = registerPreset("遗忘之海", "images/llr", "经典的遗忘之海.")
+basicSkyIslands.registerDimension(0, "examples/llr")
+basicSkyIslands.disableNetherPortal()
+//禁用地狱门
+
+overworld = registerPreset("Overworld", "images/Overworld", "教程地图§c(WIP!).")
+overworld.registerDimension(0, "examples/Overworld")
+
