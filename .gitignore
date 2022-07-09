@@ -6,78 +6,18 @@
 
 #main
 !/更新记录.txt
-!/version.json
 
 #repo stuff
 !/.github
 
 #minecrft
-!/.minecraft/fontfiles
 !/.minecraft/oresources
 !/.minecraft/resourcepacks
 !/.minecraft/resources
 !/.minecraft/scripts
 
-!/.minecraft/nu-whitelist.txt
-
 #minecraft/configs
 !/.minecraft/config
 /.minecraft/config/*
-
-!/.minecraft/config/AE2Stuff
-!/.minecraft/config/AppliedEnergistics2
-!/.minecraft/config/aroma1997
-!/.minecraft/config/cofh
-!/.minecraft/config/customloadingscreen
-!/.minecraft/config/CustomMainMenu
-!/.minecraft/config/endercore
-!/.minecraft/config/enderio
-!/.minecraft/config/ExCompressum
-!/.minecraft/config/exnihilocreatio
-!/.minecraft/config/ftbguides
-!/.minecraft/config/ftbquests
-!/.minecraft/config/ic2
-!/.minecraft/config/jei
-!/.minecraft/config/loadingscreens
-!/.minecraft/config/requious
-!/.minecraft/config/ScalingGUIs
-!/.minecraft/config/smoothfont
-!/.minecraft/config/solarflux
-!/.minecraft/config/topography
-!/.minecraft/config/unidict
-
-!/.minecraft/config/actuallyadditions.cfg
-!/.minecraft/config/clienttweaks.cfg
-!/.minecraft/config/colouredtooltips.cfg
-!/.minecraft/config/customloadingscreen.cfg
-!/.minecraft/config/ftbutilities.cfg
-!/.minecraft/config/IC2.ini
-!/.minecraft/config/infernalmobs.cfg
-!/.minecraft/config/InGameInfo.xml
-!/.minecraft/config/ingameinfoxml.cfg
-!/.minecraft/config/memorycleaner.cfg
-!/.minecraft/config/openblocks.cfg
-!/.minecraft/config/packmode.cfg
-!/.minecraft/config/randompatches.cfg
-!/.minecraft/config/serverGlobalConfig.properties
-!/.minecraft/config/tcomplement.cfg
-!/.minecraft/config/TComplementModules.cfg
-!/.minecraft/config/tconstruct.cfg
-!/.minecraft/config/theoneprobe.cfg
-!/.minecraft/config/TinkerModules.cfg
-!/.minecraft/config/TinkersExtras.cfg
-!/.minecraft/config/tinkersoredictcache.cfg
-!/.minecraft/config/tips.cfg
-!/.minecraft/config/titlechanger.cfg
-!/.minecraft/config/tmel.cfg
-!/.minecraft/config/TouhouLittleMaid.cfg
-!/.minecraft/config/treegrowingsimulator.cfg
-!/.minecraft/config/versioner.cfg
-!/.minecraft/config/tips.cfg
-!/.minecraft/config/serverGlobalConfig.properties
-!/.minecraft/config/theoneprobe.cfg
-!/.minecraft/config/instantunify.cfg
-
-
 
 #other files
