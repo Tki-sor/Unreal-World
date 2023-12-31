@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "516CD45E21A7219D"
+	group: "56F352737FEFB3E0"
+	icon: "minecraft:writable_book"
+	id: "516CD45E21A7219D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"一般来说，已开发的科技线内，常用的合成理应都有的，没有有可能是你没查到（真没有想要的可以和作者说哦，也许会考虑加的）。"
+				""
+				"那么怎么使用REI来查询合成呢？"
+				"JEI会用吗？会的话不用看了，不会的话..."
+				""
+				"对着物品按R，可以查看合成，按U则是查看用途。按Backspack键可以返回上一个查看的合成。"
+			]
+			id: "247D8C187D420FE4"
+			tasks: [{
+				id: "5AFE80B711BB76E8"
+				type: "checkmark"
+			}]
+			title: "用好REI"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "54D6A69F2731E903"
+			tasks: [{
+				id: "16C0DD3E5C34402C"
+				type: "checkmark"
+			}]
+			title: "GT矿脉机制"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "72F8FAA633FEF0CE"
+			tasks: [{
+				id: "732D88011D688410"
+				type: "checkmark"
+			}]
+			title: "游戏按键"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"嘛，其实你可能注意到了，游戏会为你自动备份游戏，所以一般来说你不需要去想该怎么备份。"
+				""
+				"存放备份文件的文件夹名为backups"
+			]
+			id: "7381EE1E68BD049E"
+			tasks: [{
+				id: "737D6C105F089E15"
+				type: "checkmark"
+			}]
+			title: "你的存档需要备份..."
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"嘛，怎么说呢，也许是帧数低，还是内存占用高？猫猫这里有一些方案哦："
+				"1.使用jdk21：这个整合包支持jdk21的。提升吗...不知道哦。"
+				""
+				"2.使用zgc：在jvm参数，将你的gc换成zgc，具体是 -XX:+UseZGC"
+				"    -当然，如果是jdk21，可以试试分代zgc -XX:+UseZGC -XX:+ZGenerational"
+			]
+			id: "772CB1BE2207D24D"
+			subtitle: "只是关于优化的啦"
+			tasks: [{
+				id: "29C22D8FBAA85FB5"
+				type: "checkmark"
+			}]
+			title: "如何提高游戏体验"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "32DF71C60A5D1EE8"
+			tasks: [{
+				id: "7F78B1541B4D2C53"
+				type: "checkmark"
+			}]
+			title: "FTB任务不会用？"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "206CBAB523499EC5"
+			tasks: [{
+				id: "2C8E3387E7478FBD"
+				type: "checkmark"
+			}]
+			title: "如何搭建多方块结构"
+			x: -2.5d
+			y: 2.5d
+		}
+	]
+	title: "看看提示吧，求求啦..."
+}

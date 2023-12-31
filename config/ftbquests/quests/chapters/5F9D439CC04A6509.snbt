@@ -1,0 +1,500 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5F9D439CC04A6509"
+	group: "0D609B9153978FC5"
+	icon: "gtceu:lv_steam_turbine"
+	id: "5F9D439CC04A6509"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B6E8B0B6C9FB9F8"]
+			icon: "gtceu:lv_steam_turbine"
+			id: "4A5097F1B5DC1D63"
+			tasks: [{
+				id: "2060DC3CF5996C18"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5475115335EA7B66"]
+			id: "66EEFF5C36EB6C2D"
+			tasks: [{
+				id: "394FC12E2E830F2A"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A5097F1B5DC1D63"]
+			id: "5475115335EA7B66"
+			tasks: [{
+				id: "6F9DD388CC8779C6"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A5097F1B5DC1D63"]
+			id: "5B9F9618F3916918"
+			tasks: [{
+				id: "64918F4FE99375FC"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "7401F4D17999A2DE"
+			tasks: [{
+				id: "7A9E2E4A18B26E6E"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "5CC13DB9B102A968"
+			tasks: [{
+				id: "7AD545375326A6E6"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5475115335EA7B66"]
+			id: "686D27267AAC3F99"
+			tasks: [{
+				id: "340B8A1F9423F3B8"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "7F25CE1E1E800768"
+			tasks: [{
+				id: "31FF1242EDA1885B"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "4EA11AE3C37F561C"
+			tasks: [{
+				id: "34122CA056F194F9"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "3F23F9314D554F0B"
+			tasks: [{
+				id: "75DC27DEA6F5EFFF"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F23F9314D554F0B"]
+			id: "1E31FCE6B7A1720C"
+			tasks: [{
+				id: "3E77981A1E69FACB"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "7156312AE2094AEF"
+			tasks: [{
+				id: "4A23D22459A70DF5"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["686D27267AAC3F99"]
+			id: "53430FB40AE3AEEB"
+			tasks: [{
+				id: "77FA039B74CBA3FE"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "790C3953898733EF"
+			tasks: [{
+				id: "7034F48B1A1E982F"
+				item: "gtceu:lv_thermal_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A5097F1B5DC1D63"]
+			id: "74A4BDF0805F2030"
+			tasks: [{
+				id: "03CE7F9F39224091"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74A4BDF0805F2030"]
+			id: "0D430C253BD0B95F"
+			tasks: [{
+				id: "4587FCADCA4DA3A2"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "50640FA3168B0D3A"
+			tasks: [{
+				id: "3E513853B3AD494D"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["50640FA3168B0D3A"]
+			id: "4C459555A4FC38B4"
+			tasks: [{
+				id: "542E2AA663263F11"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "4AC03185589A4A5E"
+			tasks: [{
+				id: "6D129CEDC57D750C"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A5097F1B5DC1D63"]
+			id: "419D2562D6E2500E"
+			tasks: [{
+				id: "7945AA42B14D202C"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "66F13EFDE9653E12"
+			tasks: [{
+				id: "5CFA0F4719418A6F"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "419075B84F704933"
+			tasks: [{
+				id: "7CFEFEA5C7289813"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "2151AB7176A1E981"
+			tasks: [{
+				id: "70BF6EE65AA514F1"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "520C3AACAE9CBCBC"
+			tasks: [{
+				id: "28D75AA176EEE61C"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "1B06983A1CB2AC12"
+			tasks: [{
+				id: "1F6E695A1E98F13A"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "22D2835ED103B2F5"
+			tasks: [{
+				id: "1CEE0E1DA06AFD2F"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "2D1836C4DB4450A1"
+			tasks: [{
+				id: "35F4DC0CA92C049F"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "7196A309A086F3A0"
+			tasks: [{
+				id: "258D99F88483B760"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B9F9618F3916918"]
+			id: "38280EA681098649"
+			tasks: [{
+				id: "62118C3D7274D960"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "6B8DBC3AF1606CAE"
+			tasks: [{
+				id: "27B39A899C23782A"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "4C2A0EFC1BF5509D"
+			tasks: [{
+				id: "0374BC207F84BA6A"
+				item: "gtceu:lv_forming_press"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "2B2598E708C578EF"
+			tasks: [{
+				id: "035FB78C6DC803DC"
+				item: "gtceu:lv_forge_hammer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7401F4D17999A2DE"]
+			id: "675A276CFAFF94BA"
+			tasks: [{
+				id: "2C119F20C155F855"
+				item: "gtceu:lv_compressor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "56E587838608D2C9"
+			tasks: [{
+				id: "46B67D0FEE9FE239"
+				item: "gtceu:lv_brewery"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "2DFD390E2EF6F51F"
+			tasks: [{
+				id: "494DAB6014B8189A"
+				item: "gtceu:lv_autoclave"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "77A277685CD6A39E"
+			tasks: [{
+				id: "24552481752983AB"
+				item: "gtceu:lv_fermenter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "243B239DB9A21FBA"
+			tasks: [{
+				id: "25C73E2E4A9DF934"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5475115335EA7B66"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "11C59C3DE02FF772"
+			tasks: [
+				{
+					id: "708325261393B046"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "1C1EBF1CFD8DF2E5"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C59C3DE02FF772"]
+			description: [
+				"铝是MV阶段非常非常重要的材料。"
+				""
+				"所以多囤积一些吧，mv要做很多机器，但铝的生产速度却没那么快。"
+			]
+			id: "4B00AD334AF1D4FD"
+			tasks: [{
+				id: "46FAA6FC3AA4CCF3"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A5097F1B5DC1D63"]
+			id: "1FA4DC3767E17B92"
+			tasks: [{
+				id: "76A7B3744ECD7365"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FA4DC3767E17B92"]
+			id: "2A2846BE05889AA4"
+			tasks: [{
+				id: "0C70420465ADDCB8"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FA4DC3767E17B92"]
+			id: "1040082153F621D1"
+			tasks: [{
+				id: "51ABBDE6CEED63A2"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F25CE1E1E800768"]
+			id: "60C0BF5D7BAD6AAD"
+			tasks: [{
+				id: "619170868367EC38"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+	]
+	title: "低压"
+}

@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "518A9E2A3BC6713F"
+	group: ""
+	icon: "gtceu:quantum_processor_assembly"
+	id: "518A9E2A3BC6713F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15E71D6E1D185189"
+			tasks: [{
+				id: "441383DDBBB9AED8"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "LV"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15E71D6E1D185189"]
+			id: "3B0B32D73C8294FB"
+			tasks: [{
+				id: "6DAA0842EBD2913A"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "MV"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B0B32D73C8294FB"]
+			id: "6CD65624BE648FB9"
+			tasks: [{
+				id: "0F2C5435CCA4023A"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			title: "HV"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CD65624BE648FB9"]
+			id: "2F9A97C1D9C8365E"
+			tasks: [{
+				id: "4BB6EE86818F2BA9"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			title: "EV"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9A97C1D9C8365E"]
+			id: "48A6791CE732F73B"
+			tasks: [{
+				id: "355D4D491F66439F"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			title: "IV"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48A6791CE732F73B"]
+			id: "5E661E07BFA131A5"
+			tasks: [{
+				id: "57D7BB22E1C569E4"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			title: "LuV"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E661E07BFA131A5"]
+			id: "60A836D2DAFD9904"
+			tasks: [{
+				id: "056ED71E52B1A8E3"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			title: "ZPM"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60A836D2DAFD9904"]
+			id: "61CFB9F04AABC301"
+			tasks: [{
+				id: "1BC3FA5118716ABA"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			title: "UV"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61CFB9F04AABC301"]
+			id: "71B4226A7E14C095"
+			tasks: [{
+				id: "48558C058C549EDA"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			title: "UHV"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "电路板"
+}

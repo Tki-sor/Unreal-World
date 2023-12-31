@@ -1,0 +1,426 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qwq"
+	group: ""
+	icon: "minecraft:oak_sapling"
+	id: "5021F79CD79D2C01"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"这个整合包呢，某种意义上对咱应该是爽包。嗯，很多小细节小功能啦。咱自认为应该是可以的吧？"
+				"当然，觉得哪里不合理或者有什么问题呢，都可以来反馈。"
+				"作者脾气蛮好的，欢迎来交流，很乐意解答问题的..."
+				"那么...接下来，开始游玩吧？"
+				""
+				"记得看看其他任务，有提示哦？不要什么都问作者，作者会很苦恼的。"
+				""
+				"以及哦，这是爽包，所以...开局送点礼物不介意吧？"
+				""
+				"&c注意：GT终端可以用来快速搭建多方块结构。只需shift，然后手持终端，右键多方快结构的控制器..."
+				""
+				"整合包仍在开发，只要不到EV那么很多合成仍然可能会进行改动，所以有时记忆不一定是可靠的哦。"
+			]
+			id: "6B6152860F5AE93F"
+			rewards: [
+				{
+					id: "44252FDFF9CCA893"
+					item: {
+						Count: 1b
+						id: "tiab:time_in_a_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1727B65FD9BF74DF"
+					item: {
+						Count: 1b
+						id: "sophisticatedbackpacks:iron_backpack"
+						tag: {
+							contentsUuid: [I;
+								742950549
+								2021150347
+								-1883850591
+								1692768502
+							]
+							inventorySlots: 54
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+									}
+									{
+										Count: 1b
+										id: "sophisticatedbackpacks:pickup_upgrade"
+									}
+								]
+							}
+							upgradeSlots: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73ECD689606E833D"
+					item: "gtceu:terminal"
+					type: "item"
+				}
+				{
+					id: "3E0C6AB4DBEE2363"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": { }
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "猫猫很高兴你能来玩虚境整合包"
+			tasks: [{
+				id: "6FF4060A10609243"
+				type: "checkmark"
+			}]
+			title: "欢迎"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B6152860F5AE93F"]
+			description: [
+				"都怎么说的来着...要致富，先撸树。撸完树呢？做工作台嘛..."
+				""
+				"工作台用来干什么的呢？那当然是用来合成物品的啊..."
+			]
+			id: "04192241572C16B7"
+			tasks: [{
+				id: "4B951D0B03771064"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04192241572C16B7"]
+			description: [
+				"总该制作一些工具的吗..."
+				"当然，现在你应该只能用木头来做镐子吧？"
+				""
+				"当然，火把什么的...猫猫从库存里给你拿一点。"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "050348E4DCD8643D"
+			rewards: [{
+				count: 64
+				id: "3AE1833BA400A104"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7475B729784799E2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/pickaxes"
+					}
+				}
+				title: "任意镐子 x1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["050348E4DCD8643D"]
+			description: [
+				"没有一把趁手的武器怎么能行呢？"
+				"镐子打怪肯定没有剑好用的啦..."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "140BF0BD72C4EA34"
+			tasks: [{
+				id: "7C3E931C64F290BA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/swords"
+					}
+				}
+				type: "item"
+			}]
+			title: "防身利器？"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F974828FF885958"]
+			description: [
+				"一不留神就会有好多好多的物品，怎么办呢..."
+				""
+				"那当然是做存储容器啦...也就是箱子。"
+				""
+				"&8（什么？木桶更便宜？但现在你做不出台阶，猫猫是故意的qwq）"
+			]
+			id: "08B45F69D68F55E2"
+			tasks: [{
+				id: "7F1931CDB6275DB0"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["050348E4DCD8643D"]
+			description: ["猜猜挖圆石干什么？"]
+			id: "1DF0DCC92C96BBFF"
+			tasks: [{
+				id: "2A600B49DD6B0590"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DF0DCC92C96BBFF"]
+			description: ["有了一些燃料，可以加热一些东西啦..."]
+			id: "644FE78999290029"
+			tasks: [{
+				id: "23C41C6C53F6AA13"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003529FE00993B79"]
+			description: [
+				"好啦，开始搭建你的第一个多方块结构吧！"
+				""
+				"首先，你需要制作一个&d焦炉&r方块，然后准备emm...25个焦炉砖块。"
+				""
+				"如果需要做一些自动化的话，可以用焦炉仓，放在任意位置。"
+				""
+				"哦对，焦炉是3x3x3中空的结构，其中焦炉方块需要放在正中间。可以查看焦炉的用途以查看如何搭建焦炉。"
+			]
+			icon: "gtceu:coke_oven"
+			id: "0CD7A5290697DD13"
+			tasks: [
+				{
+					id: "32212C5569EED8D5"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					id: "7D419B6B0A02C888"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["644FE78999290029"]
+			description: [
+				"焦炉，猫猫很喜欢..."
+				"但是焦炉砖，做起来麻烦一点而已。"
+				""
+				"无所谓啦，总之想做焦炉就是要做焦炉砖。"
+			]
+			icon: "gtceu:coke_oven_brick"
+			id: "003529FE00993B79"
+			tasks: [
+				{
+					id: "63361B90C81DFCEC"
+					item: "gtceu:compressed_coke_clay"
+					type: "item"
+				}
+				{
+					id: "2F3B81F9BB3981A4"
+					item: "gtceu:coke_oven_brick"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AD646E722139238"]
+			description: [
+				"可不能直接拿起来液体呢...所以要用桶。"
+				"铁的暂时还做不了，所以推荐粘土的。"
+			]
+			id: "3910165528AADD45"
+			tasks: [{
+				id: "4D565E77F9B52F8F"
+				item: "ceramicbucket:ceramic_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CD7A5290697DD13"]
+			description: [
+				"你有了第一块木炭呢..."
+				""
+				"这是很好用的燃料，至少比直接烧木头要好得多。"
+				""
+				"当然，更建议用来制作火把。"
+			]
+			id: "58E58BE16AA99AAA"
+			tasks: [{
+				id: "76874AC6359BE30E"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["644FE78999290029"]
+			description: ["便宜又好用的材料..."]
+			id: "0143C1B36A8D80E8"
+			tasks: [{
+				id: "49208DBD738E2C96"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0143C1B36A8D80E8"]
+			description: [
+				"想磨粉？没有磨粉机？那这个就很合适的啦。"
+				""
+				"研钵可以将一些东西研磨成粉末哦，是不是很方便？就是有点废手..."
+			]
+			id: "1AD646E722139238"
+			tasks: [{
+				id: "7914AC650241471B"
+				item: {
+					Count: 1b
+					id: "gtceu:flint_mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04192241572C16B7"]
+			id: "3A8E75E8D5AE4E42"
+			tasks: [{
+				id: "44C6A6345FB9327E"
+				item: {
+					Count: 1b
+					id: "gtceu:wood_mallet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"140BF0BD72C4EA34"
+				"3A8E75E8D5AE4E42"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"经过了一番奔波，即便是你也会感到劳累吧..."
+				"所以，该休息一下了..."
+			]
+			icon: "minecraft:white_bed"
+			id: "5D22469AF737C7CF"
+			tasks: [{
+				id: "6F20215A79236C1E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				type: "item"
+			}]
+			title: "婴儿般的睡眠"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CD7A5290697DD13"]
+			id: "7F974828FF885958"
+			tasks: [{
+				id: "110EDEC66676EAE8"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F974828FF885958"]
+			icon: "gtceu:primitive_pump"
+			id: "4A14D3011A8A991A"
+			tasks: [
+				{
+					id: "3FA2F2FC595FC94D"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "68F6F91B53DB8F92"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+				{
+					id: "3E664115A261090A"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					id: "550211FEB4A4E5B6"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.0d
+		}
+	]
+	title: "猫猫教你玩游戏"
+}

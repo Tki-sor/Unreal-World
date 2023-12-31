@@ -1,0 +1,24 @@
+2023/12/8
+更新记录:
+    -ipn对mek调整
+    -ipn对高级外设mod调整
+    -ipn对神化宝石模块调整
+    -ipn对IF调整
+    -ipn对珍奇鸟类调整
+    -ipn对饮酒作乐mod调整
+    -ipn对建筑小帮手调整
+    -ipn对物品过滤器调整
+    -ipn对tetra调整
+    -ipn对gcyr调整
+    -ipn对laserIO调整
+    -ipn对alex洞穴调整
+    -ipn对rechiseled洞穴调整
+    -ipn对ae2调整
+    -ipn对eio调整
+    -ipn对更多红石电路调整
+    -ipn对rft调整
+    -ipn对cc调整
+    -ipn对敌对神经网络调整
+    -ipn对刷怪塔实用设备调整
+    -ipn对powah调整
+    -ipn对安全工艺调整

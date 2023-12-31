@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "627B958F4303AC12"
+	group: "676193E1FA172884"
+	icon: "gtceu:micro_processor_assembly"
+	id: "627B958F4303AC12"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["4E4001649E2BD4B7"]
+		id: "1179D15192B35CFD"
+		tasks: [{
+			id: "3509ADE671A0A7C4"
+			item: "gtceu:hv_machine_hull"
+			type: "item"
+		}]
+		x: 1.5d
+		y: 0.0d
+	}]
+	title: "高压"
+}

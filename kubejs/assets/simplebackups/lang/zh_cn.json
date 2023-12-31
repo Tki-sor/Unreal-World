@@ -1,0 +1,5 @@
+{
+    "simplebackups.backup_finished": "备份完成于 %s (%s | %s)",
+    "simplebackups.backup_started": "备份已开始...",
+    "simplebackups.backups_paused": "备份已暂停"
+}

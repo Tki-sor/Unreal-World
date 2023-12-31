@@ -1,0 +1,15 @@
+
+[advanced_enchantments-common-config]
+
+	#You can determine each enchantment enabled or disabled.
+	[advanced_enchantments-common-config.enchantments]
+		CHANNELING = true
+		SILK_TOUCH = true
+		SILK_TOUCH_WITH_NBT = true
+		FLAME = true
+		INFINITY = true
+
+	[advanced_enchantments-common-config.miscs]
+		#If true, some block entities (eg. spawner, lectern) can not be placed from itemstack with nbt. If false, this feature from vanilla will be disabled.
+		KEEP_ONLY_OPS_SET_NBT = true
+

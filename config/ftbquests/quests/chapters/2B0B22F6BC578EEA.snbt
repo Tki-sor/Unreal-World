@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2B0B22F6BC578EEA"
+	group: "56F352737FEFB3E0"
+	icon: "minecraft:chest"
+	id: "2B0B22F6BC578EEA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["050348E4DCD8643D"]
+		icon: "colossalchests:interface_iron"
+		id: "04571FA6DB76503C"
+		tasks: [{
+			id: "5609992D0297CEBE"
+			item: {
+				Count: 1b
+				id: "itemfilters:or"
+				tag: {
+					items: [
+						{
+							Count: 1b
+							id: "colossalchests:chest_wall_wood"
+						}
+						{
+							Count: 1b
+							id: "colossalchests:chest_wall_copper"
+						}
+						{
+							Count: 1b
+							id: "colossalchests:chest_wall_iron"
+						}
+						{
+							Count: 1b
+							id: "colossalchests:chest_wall_silver"
+						}
+						{
+							Count: 1b
+							id: "colossalchests:chest_wall_gold"
+						}
+					]
+				}
+			}
+			title: "任意 巨型箱子墙壁x1"
+			type: "item"
+		}]
+		title: "超超超...超大的箱子！"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "简易的存储系统"
+}

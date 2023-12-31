@@ -1,0 +1,9 @@
+{
+  "maxFoodLevel": 40,
+  "upd8r": {
+    "CurrentVersionName": "1.0.0",
+    "CurrentVersionCode": 0,
+    "CurrentVersionFormat": "%versionName%(%versionCode%)",
+    "LatestVersionUrls": []
+  }
+}

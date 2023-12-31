@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "422F7E91DDA52DEB"
+	group: "56F352737FEFB3E0"
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "422F7E91DDA52DEB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["050348E4DCD8643D"]
+			description: [
+				"说起来格雷科技的工具很多的，正如它那么多机器一样..."
+				""
+				"锻造锤，剪线钳，锯，扳手，锉，撬棍，螺丝刀，研钵，刀，搋子..."
+				""
+				"但不巧的是，都能用到，嗯，也许不一定会用到搋子？"
+				""
+				"总之工具不用省，多做多用，毕竟现在的机器速度很慢..."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_wire_cutter"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "5ED978938D7101A8"
+			tasks: [{
+				id: "3D521F315CC44AB9"
+				type: "checkmark"
+			}]
+			title: "好多工具..."
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"050348E4DCD8643D"
+				"5ED978938D7101A8"
+			]
+			id: "49A3E77785B968BC"
+			tasks: [{
+				id: "4658501517D6510B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49A3E77785B968BC"]
+			id: "166E0C9059E9A62F"
+			tasks: [{
+				id: "653A4AE71023C6CC"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["166E0C9059E9A62F"]
+			id: "45897411488847B2"
+			tasks: [{
+				id: "5F71D58492C2852E"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["166E0C9059E9A62F"]
+			id: "050FB40E9FE2F965"
+			tasks: [{
+				id: "019628FC1E1F801D"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45897411488847B2"]
+			id: "33EDF751ED7B42B1"
+			tasks: [{
+				id: "5346226CDDD16553"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33EDF751ED7B42B1"]
+			id: "61598E06DB6E3730"
+			tasks: [{
+				id: "25652DFEB53BB0D6"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["166E0C9059E9A62F"]
+			id: "66836584DA38A050"
+			tasks: [{
+				id: "3505E9C0A6C14E64"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B5F2CE563C11B98"]
+			id: "4AFDA609D139224A"
+			tasks: [{
+				id: "2C1B4874822384E7"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61598E06DB6E3730"]
+			icon: "gtceu:bronze_large_fluid_pipe"
+			id: "33E160A2283E968D"
+			tasks: [{
+				id: "0CE3857DC2AEEAD6"
+				type: "checkmark"
+			}]
+			title: "最好用的管道？"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61598E06DB6E3730"]
+			id: "1B5F2CE563C11B98"
+			tasks: [{
+				id: "03C9185356C96B20"
+				item: "gtceu:bronze_plate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B5F2CE563C11B98"]
+			id: "591100C03B6F9E93"
+			tasks: [{
+				id: "1CDF20AC6EECC55F"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["591100C03B6F9E93"]
+			id: "17C9B76E69FAB904"
+			tasks: [{
+				id: "31F01623FF79CF15"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17C9B76E69FAB904"]
+			id: "7B250C79F4B79DAF"
+			tasks: [{
+				id: "25717C72D7CE0DF3"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B250C79F4B79DAF"]
+			id: "08A4A44D06E6A084"
+			tasks: [{
+				id: "660165EF97EABB68"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["591100C03B6F9E93"]
+			id: "7EE91A742CD5E244"
+			tasks: [{
+				id: "7F27D55429517D12"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B250C79F4B79DAF"]
+			id: "4739BA7780C2A976"
+			tasks: [{
+				id: "6325F7C34E0FB071"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE91A742CD5E244"]
+			id: "4F7D84963BA62481"
+			tasks: [{
+				id: "0CF07B0D00863DDD"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4739BA7780C2A976"]
+			id: "7F6ED96F08CD3585"
+			tasks: [{
+				id: "687D7BD05B18D947"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F6ED96F08CD3585"]
+			id: "3C75B7A17A4372E6"
+			tasks: [{
+				id: "4E8B0A20874142E9"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5237D090C081F911"]
+			id: "324C3FA93C84BF42"
+			tasks: [{
+				id: "397311979DC29EAA"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45897411488847B2"]
+			id: "57EF4B5251B5EEC7"
+			tasks: [{
+				id: "6FDA0AFC401C71D9"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["591100C03B6F9E93"]
+			id: "2F4B1EC51A7C87A7"
+			tasks: [{
+				id: "5F722E3E5C0AC605"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["331A0A1C5D9856B8"]
+			id: "0B6E8B0B6C9FB9F8"
+			tasks: [{
+				id: "4CEFD564532EAE56"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["324C3FA93C84BF42"]
+			id: "19286B52CBA12AAE"
+			tasks: [{
+				id: "3A57D1425F04324B"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F4B1EC51A7C87A7"]
+			id: "3A650163500EF666"
+			tasks: [{
+				id: "16CDA6F3958139E9"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A650163500EF666"]
+			id: "331A0A1C5D9856B8"
+			tasks: [{
+				id: "443F97C764D8C2F2"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B5F2CE563C11B98"]
+			id: "7AAC0664F798EF9F"
+			tasks: [{
+				id: "5A0CC9EC0FF987A9"
+				item: "gtceu:steam_miner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4739BA7780C2A976"]
+			description: [
+				"铁有时候无法满足需求的，其强度还是不够。"
+				""
+				"没有高炉？但现在你可以用土法做一个土高炉的。"
+				""
+				"但也许很麻烦呢...要好多好多的材料，大概也就...上千的粘土（4组+的粘土块），一些石膏粉，之类的。"
+				""
+				"总之嘛，加油啦。"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "5237D090C081F911"
+			tasks: [
+				{
+					id: "0E7E9A5F821EE9C4"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					id: "5E99683368E7BF52"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EDF751ED7B42B1"]
+			id: "7A520655CC1A2C63"
+			tasks: [{
+				id: "2A47864A19795BA2"
+				item: "gtceu:brass_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+	]
+	title: "蒸汽"
+}

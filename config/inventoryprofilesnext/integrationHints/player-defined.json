@@ -1,0 +1,414 @@
+{
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 201,
+                "top": 150
+            }
+        }
+    },
+    "mekanism.client.gui.GuiEnergyCube": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiElectricMachine": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiFactory": {
+        "ignore": true
+    },
+    "mekanism.client.gui.robit.GuiRobitMain": {
+        "ignore": true
+    },
+    "mekanism.client.gui.robit.GuiRobitSmelting": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiCombiner": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiAdvancedElectricMachine": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiDigitalMiner": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiTeleporter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiElectricPump": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiLogisticalSorter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiRotaryCondensentrator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalOxidizer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalInfuser": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPrecisionSawmill": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalDissolutionChamber": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalWasher": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalCrystallizer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiSeismicVibrator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPRC": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiIsotopicCentrifuge": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiNutritionalLiquifier": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiFluidicPlenisher": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiLaserAmplifier": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiLaserTractorBeam": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiQuantumEntangloporter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiSolarNeutronActivator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiOredictionificator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiResistiveHeater": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiFormulaicAssemblicator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiFuelwoodHeater": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiModificationStation": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiAntiprotonicNucleosynthesizer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPigmentExtractor": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPigmentMixer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPaintingMachine": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiDimensionalStabilizer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.qio.GuiQIODriveArray": {
+        "ignore": true
+    },
+    "mekanism.client.gui.qio.GuiQIODashboard": {
+        "ignore": true
+    },
+    "mekanism.client.gui.qio.GuiQIOImporter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.qio.GuiQIOExporter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.qio.GuiQIORedstoneAdapter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiChemicalTank": {
+        "ignore": true
+    },
+    "dan200.computercraft.client.gui.TurtleScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.adventure.affix.reforging.ReforgingScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.adventure.affix.salvaging.SalvagingScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.adventure.affix.socket.gem.cutting.GemCuttingScreen": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "ignore": true
+    },
+    "net.pavocado.exoticbirds.container.IdentifierMenu": {
+        "ignore": true
+    },
+    "net.pavocado.exoticbirds.container.IncubatorMenu": {
+        "ignore": true
+    },
+    "net.pavocado.exoticbirds.container.RoostBoxMenu": {
+        "ignore": true
+    },
+    "umpaz.brewinandchewin.client.gui.KegScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.client.screen.TemplateManagerGUI": {
+        "ignore": true
+    },
+    "dev.latvian.mods.itemfilters.gui.InventoryFilterScreen": {
+        "ignore": true
+    },
+    "se.mickelus.tetra.blocks.workbench.gui.WorkbenchScreen": {
+        "ignore": true
+    },
+    "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardItemScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.LaserNodeScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardHolderScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardFluidScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardEnergyScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardRedstoneScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterBasicScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterCountScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterTagScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterNBTScreen": {
+        "ignore": true
+    },
+    "com.github.alexmodguy.alexscaves.server.inventory.SpelunkeryTableMenu": {
+        "ignore": true
+    },
+    "com.supermartijn642.core.gui.WidgetContainerScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.StorageBusMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.StorageLevelEmitterMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.FormationPlaneMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.PatternAccessTermMenu": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wct.WCTScreen": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wet.WETScreen": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wat.WATScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.FluidTankScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.EnchanterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.PrimitiveAlloySmelterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.AlloySmelterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.PaintingMachineScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.WiredChargerScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.StirlingGeneratorScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SagMillScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SlicerScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.ImpulseHopperScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SoulBinderScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.PoweredSpawnerScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.XPVacuumScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.TravelAnchorScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.CapacitorBankScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.CrafterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SoulEngineScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.DrainScreen": {
+        "ignore": true
+    },
+    "commoble.morered.client.SolderingScreen": {
+        "ignore": true
+    },
+    "mcjty.rftoolsutility.modules.crafter.client.GuiCrafter": {
+        "ignore": true
+    },
+    "com.enderio.conduits.client.gui.ConduitScreen": {
+        "ignore": true
+    },
+    "dan200.computercraft.client.gui.PrinterScreen": {
+        "ignore": true
+    },
+    "dan200.computercraft.client.gui.DiskDriveScreen": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiFan": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiSaw": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiAbsorptionHopper": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiMGUSpawner": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiXPSolidifier": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.EnergyCellScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.SimChamberScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.LootFabScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.DeepLearnerScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.FurnatorScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.MagmatorScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.ThermoScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.SolarScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.PlayerTransmitterScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.EnergyHopperScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.DischargerScreen": {
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExPatternProvider": {
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiWirelessConnector": {
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExDrive": {
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExMolecularAssembler": {
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExInscriber": {
+        "ignore": true
+    },
+    "net.geforcemods.securitycraft.screen.KeycardReaderScreen": {
+        "ignore": true
+    },
+    "net.geforcemods.securitycraft.screen.LaserBlockScreen": {
+        "ignore": true
+    },
+    "net.geforcemods.securitycraft.screen.ProjectorScreen": {
+        "ignore": true
+    },
+    "net.geforcemods.securitycraft.screen.BlockChangeDetectorScreen": {
+        "ignore": true
+    },
+    "net.pavocado.exoticbirds.client.gui.NestScreen": {
+        "ignore": true
+    },
+    "net.apeng.filtpick.gui.FiltScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 12,
+                "top": 66
+            },
+            "SORT": {
+                "horizontalOffset": 15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 15
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 15
+            }
+        }
+    },
+    "net.apeng.filtpick.gui.FiltMenu": {
+        "ignore": true
+    }
+}

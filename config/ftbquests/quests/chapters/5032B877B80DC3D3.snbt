@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5032B877B80DC3D3"
+	group: ""
+	icon: "gtceu:electric_blast_furnace"
+	id: "5032B877B80DC3D3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["11C59C3DE02FF772"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "60408FB13CD646A7"
+			tasks: [{
+				id: "4301C3B34FF23B6B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5237D090C081F911"]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "0742A7FAA4FC5BB8"
+			tasks: [{
+				id: "473FDE4619993898"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0808FEE570F53D43"]
+			icon: "gtceu:pyrolyse_oven"
+			id: "670C4ADC8E8284D2"
+			tasks: [{
+				id: "3E0EF8A59CF02C11"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "多方块结构"
+}

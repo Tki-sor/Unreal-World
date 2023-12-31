@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "56F352737FEFB3E0", title: "T0:虚境，开始，结束" }
+		{ id: "0D609B9153978FC5", title: "T1:LV" }
+		{ id: "070AC4FC4AA439DD", title: "T2:MV" }
+		{ id: "676193E1FA172884", title: "T3:HV" }
+	]
+}

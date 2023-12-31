@@ -1,0 +1,13 @@
+{
+  "gui.darkmodeeverywhere.dark_mode": "深色模式",
+  "gui.darkmodeeverywhere.light_mode": "浅色模式",
+  "gui.darkmodeeverywhere.perfect_dark": "完美深色",
+  "gui.darkmodeeverywhere.less_perfect_dark": "稍逊完美深色",
+  "gui.darkmodeeverywhere.toasted_light": "微亮模式",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * 按住 Shift 切换到浅色模式",
+  "config.darkemodeeverywhere.method_shader_blacklist": "一个类:方法字符串列表（渲染方法），深色着色器不会应用于其中。\\n每个字符串包含类和方法（或任何子字符串）以阻止深色着色器。\\n例如，'renderHunger' 可阻止 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'（任何一个都可以工作）",
+  "config.darkemodeeverywhere.method_shader_dump": "启用此配置将每 5 秒转储应用深色着色器的 GUI 使用的方法\\n转储将包含类:方法字符串列表，例如 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'\\n使用此功能来查找您想要将其添加到黑名单的 GUI 的渲染方法字符串。",
+  "config.darkemodeeverywhere.button_position_x": "GUI 左侧的像素偏移量 (X 轴)",
+  "config.darkemodeeverywhere.button_position_y": "GUI 底部的像素偏移量 (Y 轴)",
+  "config.darkmodeeverywhere.enabled": "已启用"
+}
