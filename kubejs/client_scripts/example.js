@@ -8,4 +8,9 @@ REIEvents.hide('item', event => {
     event.hide('createaddition:rolling_mill')
     event.hide('create:propeller')
     event.hide('create:dough')
+    event.hide('mekanism:energized_smelter')
+})
+
+REIEvents.hide('type', event => {
+    event.hide('mekanism:energized_smelter')
 })

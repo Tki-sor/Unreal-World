@@ -42,9 +42,22 @@ ServerEvents.recipes(event => {
         const log = `${mod}:${woodType}_log`
 
         if (Ingredient.of('#minecraft:logs').test(log)) {
-            event.recipes.gtceu.cutter(`ulv_${woodType}_planks_${plankCount}`)
+            event.recipes.gtceu.cutter(`ulv_${woodType}_planks_water_${plankCount}`)
                 .itemInputs(log)
-                .itemOutputs(`6x ${id}`)
+                .inputFluids(Fluid.of('minecraft:water', 5))
+                .itemOutputs(`4x ${id}`, '2x gtceu:wood_dust')
+                .duration(20 * 20)
+                .EUt(7)
+            event.recipes.gtceu.cutter(`ulv_${woodType}_planks_distilled_water_${plankCount}`)
+                .itemInputs(log)
+                .inputFluids(Fluid.of('gtceu:distilled_water', 3))
+                .itemOutputs(`4x ${id}`, '2x gtceu:wood_dust')
+                .duration(20 * 20)
+                .EUt(7)
+            event.recipes.gtceu.cutter(`ulv_${woodType}_planks_lubricant_${plankCount}`)
+                .itemInputs(log)
+                .inputFluids(Fluid.of('gtceu:lubricant', 1))
+                .itemOutputs(`6x ${id}`, 'gtceu:wood_dust')
                 .duration(10 * 20)
                 .EUt(7)
         }
@@ -60,12 +73,25 @@ ServerEvents.recipes(event => {
         const mod = id.split(':')[0]
         event.recipes.create.cutting([Item.of(id, 2)], [`${mod}:${woodType}_planks`])
 
-        if (Ingredient.of('#minecraft:planks').test(`${mod}:${woodType}_planks_${slabCount}`)) {
+        if (Ingredient.of('#minecraft:planks').test(`${mod}:${woodType}_planks`)) {
             event.shaped(Item.of(id, 2), [[`${mod}:${woodType}_planks`], ['#forge:tools/saws']])
-            event.recipes.gtceu.cutter(`ulv_${woodType}_slabs`)
+            event.recipes.gtceu.cutter(`ulv_${woodType}_slabs_water_${slabCount}`)
                 .itemInputs(`${mod}:${woodType}_planks`)
+                .inputFluids(Fluid.of('minecraft:water', 4))
                 .itemOutputs(`2x ${id}`)
-                .duration(2 * 20)
+                .duration(2.5 * 20)
+                .EUt(4)
+            event.recipes.gtceu.cutter(`ulv_${woodType}_slabs_distilled_water_${slabCount}`)
+                .itemInputs(`${mod}:${woodType}_planks`)
+                .inputFluids(Fluid.of('gtceu:distilled_water', 3))
+                .itemOutputs(`2x ${id}`)
+                .duration(2.5 * 20)
+                .EUt(4)
+            event.recipes.gtceu.cutter(`ulv_${woodType}_slabs_lubricant_${slabCount}`)
+                .itemInputs(`${mod}:${woodType}_planks`)
+                .inputFluids(Fluid.of('gtceu:lubricant', 1))
+                .itemOutputs(`2x ${id}`)
+                .duration(1.25 * 20)
                 .EUt(4)
         }
         slabCount++

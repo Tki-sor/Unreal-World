@@ -19,6 +19,8 @@
 				""
 				"以及哦，这是爽包，所以...开局送点礼物不介意吧？"
 				""
+				"虚境内的怪物很强力，前期不要招惹哦...但是送了你一些恶意吸收宝珠，通过它就可以弱化怪物啦..."
+				""
 				"&c注意：GT终端可以用来快速搭建多方块结构。只需shift，然后手持终端，右键多方快结构的控制器..."
 				""
 				"整合包仍在开发，只要不到EV那么很多合成仍然可能会进行改动，所以有时记忆不一定是可靠的哦。"
@@ -78,6 +80,12 @@
 							"eccentrictome:mods": { }
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "47831C27BF6C2473"
+					item: "l2hostility:hostility_orb"
 					type: "item"
 				}
 			]
@@ -140,6 +148,7 @@
 				title: "任意镐子 x1"
 				type: "item"
 			}]
+			title: "开凿拓土"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -383,6 +392,7 @@
 		}
 		{
 			dependencies: ["0CD7A5290697DD13"]
+			description: ["防腐，好用，猫猫认可的木板。"]
 			id: "7F974828FF885958"
 			tasks: [{
 				id: "110EDEC66676EAE8"
@@ -394,6 +404,10 @@
 		}
 		{
 			dependencies: ["7F974828FF885958"]
+			description: [
+				"来回打水太麻烦啦？"
+				"是时候建造一个原始水泵啦！"
+			]
 			icon: "gtceu:primitive_pump"
 			id: "4A14D3011A8A991A"
 			tasks: [

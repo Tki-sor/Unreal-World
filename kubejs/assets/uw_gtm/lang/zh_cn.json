@@ -1,3 +1,6 @@
 {
-    "material.andesite_alloy":"安山合金"
+    "material.andesite_alloy":"安山合金",
+    "material.signalum": "信素",
+    "material.lumium": "流明",
+    "material.enderium": "末影"
 }

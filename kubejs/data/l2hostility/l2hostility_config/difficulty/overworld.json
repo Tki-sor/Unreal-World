@@ -1,0 +1,12 @@
+{
+  "levelMap": {
+    "minecraft:overworld": {
+      "apply_chance": 1.0,
+      "base": 300,
+      "min": 300,
+      "scale": 1.0,
+      "trait_chance": 0.5,
+      "variation": 4.0
+    }
+  }
+}

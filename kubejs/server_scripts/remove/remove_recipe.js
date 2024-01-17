@@ -4,6 +4,10 @@ ServerEvents.recipes(event => {
     // 盘子
     event.remove({ output: 'cuisinedelight:plate' })
 
+    // better end & better nether
+    event.remove({ mod: 'betterend' })
+    event.remove({ mod: 'betternether' })
+
     // 齿轮
     let gearid = [
         'gtceu:shaped/gear_wood',

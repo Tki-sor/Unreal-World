@@ -1,3 +1,6 @@
 {
-    "material.andesite_alloy":"Andesite Alloy"
+    "material.andesite_alloy":"Andesite Alloy",
+    "material.signalum": "Signalum",
+    "material.lumium": "Lumium",
+    "material.enderium": "Enderium"
 }

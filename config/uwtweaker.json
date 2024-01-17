@@ -1,9 +1,12 @@
 {
   "maxFoodLevel": 40,
   "upd8r": {
-    "CurrentVersionName": "1.0.0",
-    "CurrentVersionCode": 0,
+    "CurrentVersionName": "0.3.0",
+    "CurrentVersionCode": 3,
     "CurrentVersionFormat": "%versionName%(%versionCode%)",
-    "LatestVersionUrls": []
+    "LatestVersionUrls": [
+      "https://raw.githubusercontent.com/Tki-sor/Unreal-World/main/version..json",
+      "https://gitee.com/tki-sor/Unreal-World/raw/main/version..json"
+    ]
   }
 }
