@@ -5,8 +5,8 @@
     "CurrentVersionCode": 3,
     "CurrentVersionFormat": "%versionName%(%versionCode%)",
     "LatestVersionUrls": [
-      "https://raw.githubusercontent.com/Tki-sor/Unreal-World/main/version..json",
-      "https://gitee.com/tki-sor/Unreal-World/raw/main/version..json"
+      "https://raw.githubusercontent.com/Tki-sor/Unreal-World/main/version.json",
+      "https://gitee.com/tki-sor/Unreal-World/raw/main/version.json"
     ]
   }
 }
